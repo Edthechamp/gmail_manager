@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Message Search</title>
+</head>
+<body>
+    <h1>Gmail Message Search</h1>
+
+    <form id="addAccountForm">
+        <label for="email">Gmail Account:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="button" onclick="addAccount()">Add Account</button>
+    </form>
+
+    <hr>
+
+    <form id="searchForm">
+        <label for="searchQuery">Search Query:</label>
+        <input type="text" id="searchQuery" name="searchQuery" required>
+        <button type="button" onclick="searchMessages()">Search Messages</button>
+    </form>
+
+    <div id="results">
+        <!-- Display search results here -->
+    </div>
+
+    <script>
+        function addAccount() {
+            // Implement logic to add Gmail account using Flask backend
+            alert("Add account functionality not implemented yet.");
+        }
+
+        function searchMessages() {
+            // Implement logic to search messages using Flask backend
+            alert("Search messages functionality not implemented yet.");
+        }
+    </script>
+</body>
+</html>
